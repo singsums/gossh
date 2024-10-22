@@ -15,9 +15,6 @@ jobs:
       with:
         ref: main
 
-    - name: Cleanup
-      uses: rokibhasansagar/slimhub_actions@main
-
     - name: build job
       env:
         HOST: ${{ secrets.HOST }}
